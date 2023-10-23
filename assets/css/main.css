@@ -4045,6 +4045,12 @@
 			height: 50vh !important;
 		}
 
+		.banner.fullw {
+			padding: 0;
+			width: 100%;
+			height: auto;
+		}
+
 		.banner:after {
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
@@ -4318,3 +4324,13 @@
 			}
 
 		}
+
+.img-circle {
+	border-radius: 50%;
+	float: left;
+	padding: 10px;
+}
+
+.textpadd {
+	padding: 10px;
+}
